@@ -2,7 +2,7 @@ spring:
   application:
     name: llm-rag-001
   elasticsearch:
-    uris: http://k8s.local.cn:30134
+    uris: http://localhost:9200
   shell:
     history:
       name: test
@@ -10,7 +10,7 @@ spring:
       name: aaa
 logging:
   config: classpath:logback-local.xml
-# 自定义配置
+# 自定义配置 uris: http://k8s.local.cn:30134
 llm:
   # 智谱AI开放密钥，开发者替换为自己的
-  zp-key:
+  zp-key: c2329e484d09b2105e24bbaacb8326db.kYUcpx12KpebPI43
